@@ -75,3 +75,7 @@ document.querySelector('#buttons').addEventListener('click', e => {
 });
 
 
+const buttonz = document.querySelector('button')
+buttonz.addEventListener('click', () => {
+    alert('This Project Was Made by David Mills. Thanks for viewing!')
+});
